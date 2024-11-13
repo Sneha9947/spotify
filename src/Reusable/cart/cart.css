@@ -1,0 +1,198 @@
+.mycart .card{
+    height: 400px;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    transition: 0.3s ease;
+    position: relative;
+
+}   
+.card:hover{
+    color: #706f6f;
+}
+.card-img{
+    width: 100%;
+    height: 170px;
+    overflow: hidden;
+    border-radius: 8px;
+    /* background-color: red; */
+    display: flex;
+    padding:  0px 0px;
+}
+.card-img img{
+    width: 120%;
+    height: 115%;
+    object-fit: cover;
+    background-color: #282828;
+}
+.playbutton{
+  
+    border: 2px solid #1ED661;
+    border-radius: 50%;
+    background-color: #1ED661;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   position: absolute;
+   opacity: 0;
+    top:130px;
+   right: 15px;
+   transition: 0.8s;
+}
+.card:hover button{
+    opacity: 1;
+}
+.play-icon{
+    width: 25px;
+    color: black;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 13px;
+}
+
+.album-title{
+    margin-top: 6px;
+    font-size: 9px;
+    color: #f9f9fa;
+    padding: 0px 10px;
+    line-height: 19px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.mycart .swiper {
+    width: 100%;
+    height: 250px;
+  }
+  
+  .mycart .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .mycart .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swipepackage{
+    display: block;
+  }
+  .swipepackage1{
+    display: none;
+  }
+  @media screen and (max-width:768px){
+    .mycart .card{
+        height: 400px;
+        width: 100%;
+        border-radius: 8px;
+        overflow: hidden;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+        text-align: left;
+        transition: 0.3s ease;
+        position: relative;
+    
+    }   
+    .card:hover{
+        color: #706f6f;
+    }
+    .card-img{
+        width: 100%;
+        height: 170px;
+        overflow: hidden;
+        border-radius: 8px;
+        /* background-color: red; */
+        display: flex;
+        padding:  0px 0px;
+    }
+    .card-img img{
+        width: 120%;
+        height: 115%;
+        object-fit: cover;
+        background-color: #282828;
+    }
+    .playbutton{
+      
+        border: 2px solid #1ED661;
+        border-radius: 50%;
+        background-color: #1ED661;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       position: absolute;
+       opacity: 0;
+        top:130px;
+       right: 15px;
+       transition: 0.8s;
+    }
+    .card:hover button{
+        opacity: 1;
+    }
+    .play-icon{
+        width: 25px;
+        color: black;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+        margin-left: 0px;
+        font-size: 13px;
+    }
+    
+    .album-title{
+        margin-top: 6px;
+        font-size: 9px;
+        color: #f9f9fa;
+        padding: 0px 10px;
+        line-height: 19px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .mycart .swiper {
+        width: 100%;
+        height: 250px;
+      }
+      
+      .mycart .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+      
+        /* Center slide text vertically */
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      
+      .mycart .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .swipepackage{
+        display: none;
+      }
+      .swipepackage1{
+        display: block;
+      }
+}

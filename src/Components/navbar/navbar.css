@@ -1,0 +1,207 @@
+.navbar{
+  width: 100%;   
+  display: block;
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 15px 20px;
+  height: 12%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+span{
+  padding: 10px;
+  border-radius: 90%;
+  border: none;
+  font-size: 15px;
+  background-color: #333;
+  transition: color 0.3s;
+  transition: transform 0.3s ease;
+}
+.icon{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+ 
+}
+span:hover{
+  transform: scale(1.1); 
+}
+.navicon{
+  font-size: 35px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 10px;
+} 
+.navicon1{
+  font-size: 35px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.navbar__search{
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar__search input {
+  border: none;
+  padding: 10px;
+  width: 350px;
+  color: #fff;
+  transition: 0.9s;
+  border: none;
+  border-right: 1px solid white;
+  background-color: transparent;
+  padding-left: 10px;
+  margin-right: 10px;
+  outline: none;
+  font-weight: bold;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  justify-content: center;
+}
+
+.navbar-buton{
+  padding: 20px;
+}
+.signup-button {
+  border: none;
+  color: #000101;
+  padding: 10px;
+  font-size: 16px;
+  margin: 5px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.search{
+  width: 100%;
+
+  padding: 5px 10px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+  background-color:  #1F1E1E;
+  color: #fff;
+  transition: 0.9s;
+  margin-left: 10px;
+}
+
+.navbar__search .search:hover{
+  background-color:#333;
+}
+.search .navicon{
+  color:white;
+
+}
+.search input{
+  width: 100%;
+}
+.login-button {
+  border: none;
+  border-radius: 20px;
+  color: #000;
+  padding: 10px ;
+  font-size: 16px;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+
+}
+.login-button:hover {
+  background-color: #555;
+}
+.signup-button:hover {
+  background-color: #1db954;
+}
+.media-nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  display: none;
+}
+.all{
+  border-radius: 50%;
+  color: white;
+  background-color: #333;
+  transition:  0.3s ease;
+  font-size: 10px;
+}
+.all:hover{
+  background-color: #1db954;
+  color: #000101;
+}
+@media screen and (max-width:768px){
+  .navbar{
+    width: 100%;   
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 15px 20px;
+    height: 12%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+  
+  .media-nav{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    display: block;
+    padding: 10px 10px;
+  }
+  .all{
+    border-radius: 50%;
+    color: white;
+    background-color: #333;
+    transition:  0.3s ease;
+    font-size: 15px;
+  }
+  .all:hover{
+    background-color: #1db954;
+    color: #000101;
+  }
+  .music{
+    height: 50px;
+    width: 70px;
+    border-radius: 100px;
+    color: white;
+    background-color: #333;
+    transition:  0.3s ease;
+    font-size: 20px;
+    padding: 5px;
+  }
+  .music:hover{
+    background-color: #1db954;
+    color: #000101;
+  }
+  .podcast{
+    border-radius: 100px;
+    color: white;
+    background-color: #333;
+    transition:  0.3s ease;
+    font-size: 20px; 
+  }
+  .podcast:hover{
+    background-color: #1db954;
+    color: #000101;
+  }
+}

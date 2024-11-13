@@ -1,0 +1,226 @@
+.whole-artist{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+}
+.container{
+    height: 50vh;
+    width: 100%;
+}
+.artist{
+   height: 100%;
+   width: 100%;
+    font-size: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    position: relative;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+
+
+}
+.artist:hover{
+    background-color: #232324;
+    transition: background-color 0.3s ease;
+}
+.artist:active{
+    background-color: #232324;
+}
+.portcontent{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 20px;
+    color: #FEFEFF;
+}
+.portcontent h1{
+    width: 100%;
+    overflow-x: scroll;
+    font-size: 13px;
+    text-align: start;
+    font-weight: 300;
+}
+
+.play-buton{
+    border: 2px solid #1ED661;
+    border-radius: 100%;
+    background-color: #1ED661;
+    color: black;
+    font-size: 35px;
+   position: absolute;
+   right: 20px;
+   bottom: 80px;
+   opacity: 0;
+   transition: 0.8s;
+}
+.artist:hover .play-buton{
+    opacity: 1;
+}
+.img22{
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+
+}
+.img22 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+border-radius: 100%;
+}
+
+.swiper {
+    width: 100%;
+    height: 200px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+  }
+  .swiper1{
+    display: block;
+  }
+  .swiper2{
+    display: none;
+  }
+  @media screen and (max-width:768px){
+    .whole-artist{
+        height: 100%;
+        width: 100%;
+        background-color: blue;
+    }
+    .container{
+        height: 50vh;
+        width: 100%;
+    }
+    .artist{
+       height: 100%;
+       width: 100%;
+        font-size: 10px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        position: relative;
+        transition: transform 0.3s ease;
+        border-radius: 10px;
+    
+    
+    }
+    .artist:hover{
+        background-color: #232324;
+        transition: background-color 0.3s ease;
+    }
+    .artist:active{
+        background-color: #232324;
+    }
+    .portcontent{
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-top: 20px;
+        color: #FEFEFF;
+    }
+    .portcontent h1{
+        width: 100%;
+        overflow-x: scroll;
+        font-size: 13px;
+        text-align: start;
+        font-weight: 300;
+    }
+    
+    .play-buton{
+        border: 2px solid #1ED661;
+        border-radius: 100%;
+        background-color: #1ED661;
+        color: black;
+        font-size: 35px;
+       position: absolute;
+       right: 20px;
+       bottom: 80px;
+       opacity: 0;
+       transition: 0.8s;
+    }
+    .artist:hover .play-buton{
+        opacity: 1;
+    }
+    .img22{
+        border-radius: 100%;
+        height: 100px;
+        width: 100px;
+        display: flex;
+    
+    }
+    .img22 img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    border-radius: 100%;
+    }
+    
+    .swiper {
+        width: 100%;
+        height: 200px;
+      }
+      
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+      
+        /* Center slide text vertically */
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .title{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 15px;
+      }
+      .swiper1{
+        display: none;
+      }
+      .swiper2{
+        display: block;
+      }
+    
+}
+  
